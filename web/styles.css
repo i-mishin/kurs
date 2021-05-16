@@ -1,0 +1,326 @@
+.header{
+    background-color: #ffde8f ;
+    width: 100%;
+    height: 120px;
+    border: solid 4px blue;
+    margin: 0px;
+}
+
+.title{
+    text-align: center;
+    color: rgba(43,45,48,0.95);
+}
+
+.sidebar{
+    background-color: greenyellow;
+    height: 820px;
+    width: 100%;
+    margin: 0px;
+}
+
+.create{
+    position: absolute;
+    top: 245px;
+    left: 615px;
+}
+
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 14px;
+}
+
+.btn1{
+
+}
+
+.sidetext{
+    position: absolute;
+    color: darkgoldenrod;
+    top: 140px;
+    left: 530px;
+    font-size: 25px;
+}
+
+input{
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 280px;
+    border: none;
+    border-bottom: 2px solid darkgoldenrod;
+}
+
+select {
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    outline: 0;
+    border-top-left-radius: 13px;
+}
+
+.adduser{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.footer{
+    background-color: #ffde8f;
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0;/*Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%; /* Ширина слоя */
+    border: solid 4px blue;
+}
+
+.addtext{
+    position: absolute;
+    top: 240px;
+    left: 170px;
+    color: darkgoldenrod;
+}
+
+.foottext{
+    color: rgba(43,45,48,0.95);
+    text-align: center;
+}
+
+.vsidetext{
+    position: absolute;
+    color: darkgoldenrod;
+    top: 220px;
+    left: 600px;
+    font-size: 25px;
+}
+
+.deltext{
+    position: absolute;
+    color: darkgoldenrod;
+    left: 500px;
+    top: 200px;
+    font-size: 25px;
+}
+
+.userdel{
+    position: absolute;
+    top: 370px;
+    left: 980px;
+}
+
+.sidetext3{
+    position: absolute;
+    color: darkgoldenrod;
+    top: 165px;
+    left: 440px;
+    font-size: 25px;
+}
+
+.delform{
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.dsidetext{
+    position: absolute;
+    color: darkgoldenrod;
+    top: 290px;
+    left: 960px;
+}
+
+.incometitle{
+    position: absolute;
+    color: darkgoldenrod;
+    top: 160px;
+    left: 120px;
+}
+
+.singletitle{
+    position: absolute;
+    color: darkgoldenrod;
+    top: 160px;
+    left: 680px;
+}
+
+.easetitle{
+    position: absolute;
+    color: darkgoldenrod;
+    top: 160px;
+    left: 1170px;
+}
+
+.incometext{
+    position: absolute;
+    color: black;
+    top: 190px;
+    left: 10px;
+}
+
+.singletext{
+    position: absolute;
+    color: black;
+    top: 190px;
+    left: 550px;
+}
+
+.easetext{
+    position: absolute;
+    color: black;
+    top: 190px;
+    left: 1120px;
+}
+
+.search{
+    position: absolute;
+    top: 320px;
+    left: 600px;
+}
+
+.record{
+    position: absolute;
+    top: 230px;
+    left: 600px;
+}
+
+.sidetextCreate{
+    position: absolute;
+    color: darkgoldenrod;
+    top: 155px;
+    left: 530px;
+    font-size: 25px;
+}
+
+/*.sidetextRed{
+    position: absolute;
+    position: absolute;
+    color: darkgoldenrod;
+    top: 155px;
+    left: 530px;
+}*/
+
+/*.forma{
+    position: absolute;
+    top: 300px;
+}*/
+
+.redform{
+    position: absolute;
+    top: 320px;
+    left: 630px;
+}
+
+/*.sidebarFiscal{
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}*/
+
+.found{
+    position: absolute;
+
+    top: 200px;
+    left: 700px;
+}
+
+.sidebarGr{
+    height: 540px;
+    width: 100%;
+    margin: 0px;
+}
+
+table {
+    position: absolute;
+    top: 260px;
+    left: 400px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td:first-child {
+    background: #AFCDE7;
+    color: firebrick;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+td {
+    background: #D8E6F3;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+.catTable{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.catBlock{
+    position: absolute;
+    top: 250px;
+    left: 580px;
+}
+
+.fiscalBlock{
+    position: absolute;
+    top: 250px;
+    left: 580px;
+}
+
+*{
+    font-family: Areal;
+}
+.b-container{
+    width:200px;
+    height:150px;
+    background-color: #ccc;
+    margin:0px auto;
+    padding:10px;
+    font-size:30px;
+    color: #fff;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:100px;
+    height: 40px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.knopka {
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+}
+
+
+

@@ -1,0 +1,87 @@
+.header{
+    background-color: #287dcc ;
+    width: 100%;
+    height: 160px;
+    border: solid 4px blue;
+    margin: 0px;
+}
+
+.title{
+    text-align: center;
+    /*color: rgba(43,45,48,0.95);*/
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: silver;
+}
+
+.sidebar{
+    background-color: greenyellow;
+    height: 820px;
+    width: 100%;
+    margin: 0px;
+}
+
+.adminenter{
+    position: absolute;
+    top: 320px;
+    left: 100px;
+}
+
+.userenter{
+    position: absolute;
+    top: 320px;
+    left: 620px;
+}
+
+.userreg{
+    position: absolute;
+    top: 320px;
+    left: 1100px;
+}
+
+.footer{
+    background-color: #287dcc;
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0;/*Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%; /* Ширина слоя */
+    border: solid 4px blue;
+}
+
+.foottext{
+    color: rgba(43,45,48,0.95);
+    text-align: center;
+}
+
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.f1{
+    border-color: red;
+}
+
+.sidetext{
+    position: absolute;
+    color: darkgoldenrod;
+    margin: 10px;
+    top: 240px;
+    left: 540px;
+}
+
+.field{
+    border-color: #ffde8f;
+    height: 30px;
+}
+
+.date{
+    position: absolute;
+    bottom: 500px;
+    left: 500px;
+}
